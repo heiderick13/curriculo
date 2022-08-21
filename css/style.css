@@ -156,3 +156,78 @@ header{
     height: 60px;
 }
 /* BREAK */
+
+
+/* CONTATO */
+.faca-contato{
+    background-color: #eceaea;
+}
+.entre-em-contato{
+    display: grid;
+    place-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 2rem 3rem;
+}
+
+.entre-em-contato__titulo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.entre-em-contato p{
+    text-align: center;
+    margin:  2rem;
+    line-height: 2rem;
+}
+
+.btn{
+    margin-: 50%;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 8px #464F57;
+    transition: .3s;
+}
+
+.btn:hover{
+    transform: scale(110%);
+    cursor: pointer;
+}
+/* BREAK */
+
+
+/* FOOTER */
+footer{
+    background-color: #464F57;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #eceaea;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer img{
+    padding-left: 1rem;
+}
+
+footer p{
+    text-decoration: none;
+    color: #eceaea;
+    padding-top: 1rem;
+}
+/* BREAK */
