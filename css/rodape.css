@@ -5,22 +5,20 @@ footer{
     text-align: center;
     padding: 2rem;
     font-size: .7rem;
-    /* testar display: flex; align-items: baseline; */
+    display: grid;
+    justify-items: center;
+    align-items:  center;
 }
 
 footer a{
     text-decoration: none;
     color: #eceaea;
     display: inline-block;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
 }
 
 footer a:hover{
     cursor: pointer;
-}
-
-footer img{
-    padding-left: 1rem;
 }
 
 footer p{

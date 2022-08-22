@@ -25,8 +25,4 @@ header{
 .menu__link:hover{
     text-decoration: underline;
 }
-
-.menu__item:hover{
-    transform: scale(120%);
-}
 /* BREAK */
