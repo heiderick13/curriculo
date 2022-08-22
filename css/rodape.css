@@ -5,6 +5,7 @@ footer{
     text-align: center;
     padding: 2rem;
     font-size: .7rem;
+    /* testar display: flex; align-items: baseline; */
 }
 
 footer a{
