@@ -4,6 +4,7 @@ footer{
     margin-bottom: 0;
     text-align: center;
     padding: 2rem;
+    font-size: .7rem;
 }
 
 footer a{
@@ -15,7 +16,6 @@ footer a{
 
 footer a:hover{
     cursor: pointer;
-    text-decoration: underline;
 }
 
 footer img{

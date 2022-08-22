@@ -23,18 +23,28 @@
     line-height: 2rem;
 }
 
+.entre-em-contato a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #eceaea;
+}
+
 .btn{
     width: 10rem;
     height: 2rem;
     border-radius: 10px;
-    font-size: 1rem;
-    font-weight: bold;
     box-shadow: 3px 3px 8px #464F57;
-    transition: .3s;
+    transition: .3s all;
+    display: grid;
+    place-items: center;
+    background-color: orange;
 }
 
 .btn:hover{
-    transform: scale(110%);
+    transform: scale(1.1);
     cursor: pointer;
+    background-color: darkorange;
 }
 /* BREAK */
