@@ -1,6 +1,6 @@
-.form-contato{
-    width: 80%;
-    margin: 0 auto;
+main {
+    background-color: #fefefe;
+    padding: 10px 0;
 }
 
 form{
@@ -14,7 +14,12 @@ form label{
     font-size: 20px;
     margin: 0 0 10px;
 }
-  
+
+.form-contato{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .input__padrao{
     display: block;
     margin: 0 0 20px;
