@@ -1,9 +1,9 @@
 /* FOOTER */
 footer{
-    background-color: #464F57;
+    background-image: url(/img/bg.jpg);
     margin-bottom: 0;
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     font-size: .7rem;
     display: grid;
     justify-items: center;

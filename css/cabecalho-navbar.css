@@ -1,7 +1,7 @@
 /* CABEÇALHO/NAVBAR */
 header{
     align-items: center;
-    background: #464F57;
+    background-image: url(/img/bg.jpg);
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
