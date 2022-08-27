@@ -1,6 +1,6 @@
 /* CABEÇALHO/NAVBAR */
 header{
-    align-items: center;
+    /* align-items: center; */
     background-image: url(../img/bg.jpg);
     display: flex;
     justify-content: space-between;
