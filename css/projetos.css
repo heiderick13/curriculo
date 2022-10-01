@@ -1,12 +1,13 @@
 /* PROJETOS */
-.projetos__content{
+
+.projetos__content {
     width: 80%;
     margin: 0 auto;
     padding: 3rem;
 
 }
 
-.projetos__titulo{
+.projetos__titulo {
     color: #fefefe;
     text-align: center;
     font-size: 20px;
@@ -14,16 +15,31 @@
     padding-bottom: 2rem;
 }
 
-.projetos__item{
+.projetos__item {
     color: #fefefe;
     display: inline-block;
-    text-align: center;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
     border: 2px solid #fefefe;
     border-radius: 20px;
+    overflow: hidden;
+    transition: .5s;
 }
-/* BREAK */
+
+.projetos__item:hover {
+    scale: 105%;
+}
+
+.projetos__descricao {
+    padding: 1.5rem;
+    min-height: 200px;
+    line-height: 1.5;
+}
+
+.projetos__descricao h2 {
+    text-align: center;
+    font-size: 14pt;
+    text-transform: uppercase;
+    line-height: 2.5;
+}

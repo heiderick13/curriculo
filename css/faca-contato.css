@@ -1,8 +1,9 @@
 /* CONTATO */
-.faca-contato{
+.faca-contato {
     background-color: #eceaea;
 }
-.entre-em-contato{
+
+.entre-em-contato {
     display: grid;
     place-items: center;
     width: 70%;
@@ -10,20 +11,20 @@
     padding: 3rem 2rem 3rem;
 }
 
-.entre-em-contato__titulo{
+.entre-em-contato__titulo {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 1rem;
 }
 
-.entre-em-contato p{
+.entre-em-contato p {
     text-align: center;
-    margin:  2rem;
+    margin: 2rem;
     line-height: 2rem;
 }
 
-.entre-em-contato a{
+.entre-em-contato a {
     text-align: center;
     text-decoration: none;
     font-size: 1rem;
@@ -31,7 +32,7 @@
     color: #eceaea;
 }
 
-.btn{
+.btn {
     width: 10rem;
     height: 2rem;
     border-radius: 10px;
@@ -42,9 +43,10 @@
     background-color: orange;
 }
 
-.btn:hover{
-    transform: scale(1.1);
+.btn:hover {
+    transform: scale(1.05);
     cursor: pointer;
     background-color: darkorange;
 }
+
 /* BREAK */
